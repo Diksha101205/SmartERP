@@ -7,7 +7,7 @@ Day 2 establishes the backend foundation for SmartERP and prepares PostgreSQL fo
 Deliverables:
 
 - Express.js backend project
-- Environment configuration
+- `.env` environment configuration
 - PostgreSQL connection pool
 - Initial database migration
 - Health-check endpoint
@@ -19,7 +19,7 @@ Deliverables:
 ```text
 backend/
   package.json
-  .env.example
+  .env
   README.md
   src/
     app.js
@@ -57,7 +57,7 @@ Development dependency:
 
 ## 4. Environment Variables
 
-Create `backend/.env` from `backend/.env.example`.
+Use `backend/.env` for local backend configuration.
 
 ```env
 NODE_ENV=development

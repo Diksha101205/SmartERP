@@ -10,21 +10,15 @@ Express.js backend API for SmartERP.
    npm install
    ```
 
-2. Create environment file:
+2. Update `.env` if your PostgreSQL credentials are different.
 
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Update `DATABASE_URL` if your PostgreSQL credentials are different.
-
-4. Run database migration:
+3. Run database migration:
 
    ```bash
    npm run db:migrate
    ```
 
-5. Start the development server:
+4. Start the development server:
 
    ```bash
    npm run dev
