@@ -16,3 +16,7 @@ SmartERP is a Tally-inspired web application for billing, inventory, and account
 ## Day 3
 
 - [Authentication Module](docs/day-3-authentication-module.md)
+
+## Day 4
+
+- [Company Management](docs/day-4-company-management.md)

@@ -32,6 +32,12 @@ Express.js backend API for SmartERP.
 - `GET /api/auth/me` - Current authenticated user
 - `GET /api/companies` - List companies
 - `POST /api/companies` - Create company
+- `GET /api/companies/:companyId` - Get company details
+- `PATCH /api/companies/:companyId` - Update company details
+- `DELETE /api/companies/:companyId` - Delete company
+- `GET /api/companies/:companyId/financial-years` - List financial years
+- `POST /api/companies/:companyId/financial-years` - Create financial year
+- `PATCH /api/companies/:companyId/financial-years/:financialYearId/activate` - Activate financial year
 
 ## Day 2 Scope
 
@@ -42,3 +48,4 @@ Express.js backend API for SmartERP.
 - Health route
 - Company route foundation
 - Authentication module
+- Company management module
