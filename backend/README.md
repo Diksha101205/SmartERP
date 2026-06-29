@@ -38,6 +38,11 @@ Express.js backend API for SmartERP.
 - `GET /api/companies/:companyId/financial-years` - List financial years
 - `POST /api/companies/:companyId/financial-years` - Create financial year
 - `PATCH /api/companies/:companyId/financial-years/:financialYearId/activate` - Activate financial year
+- `GET /api/companies/:companyId/ledgers` - List customer and supplier ledgers
+- `POST /api/companies/:companyId/ledgers` - Create customer or supplier ledger
+- `GET /api/companies/:companyId/ledgers/:ledgerId` - Get ledger details
+- `PATCH /api/companies/:companyId/ledgers/:ledgerId` - Update ledger details
+- `DELETE /api/companies/:companyId/ledgers/:ledgerId` - Deactivate ledger
 
 ## Day 2 Scope
 
@@ -49,3 +54,4 @@ Express.js backend API for SmartERP.
 - Company route foundation
 - Authentication module
 - Company management module
+- Ledger management module

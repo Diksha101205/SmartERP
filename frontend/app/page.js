@@ -144,16 +144,16 @@ export default function DashboardPage() {
               const Icon = item.icon;
 
               return (
-                <button
+                <a
                   key={item.label}
-                  type="button"
+                  href={item.label === 'Ledgers' ? '/ledgers' : '#'}
                   className={`flex h-11 items-center gap-3 rounded-md px-3 text-sm font-medium transition ${
                     item.active ? 'bg-white text-ink' : 'text-white/72 hover:bg-white/10 hover:text-white'
                   }`}
                 >
                   <Icon size={18} aria-hidden="true" />
                   <span>{item.label}</span>
-                </button>
+                </a>
               );
             })}
           </nav>

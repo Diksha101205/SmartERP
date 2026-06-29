@@ -9,6 +9,7 @@ import { notFoundHandler } from './middleware/not-found-handler.js';
 import authRoutes from './routes/auth-routes.js';
 import companyRoutes from './routes/company-routes.js';
 import healthRoutes from './routes/health-routes.js';
+import ledgerRoutes from './routes/ledger-routes.js';
 
 export function createApp() {
   const app = express();
@@ -20,6 +21,7 @@ export function createApp() {
 
   app.use('/api/health', healthRoutes);
   app.use('/api/auth', authRoutes);
+  app.use('/api/companies/:companyId/ledgers', ledgerRoutes);
   app.use('/api/companies', companyRoutes);
 
   app.use(notFoundHandler);

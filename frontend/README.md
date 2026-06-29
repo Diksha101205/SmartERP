@@ -39,3 +39,10 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 - KPI cards
 - Quick actions for vouchers, ledgers, and stock
 - Recent activity and stock watch tables
+
+## Day 6 Scope
+
+- Ledger management page
+- Customer and supplier master UI
+- Ledger search table
+- Ledger creation form
