@@ -1,0 +1,41 @@
+# SmartERP Frontend
+
+Next.js dashboard UI for SmartERP.
+
+## Setup
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open:
+
+   ```text
+   http://localhost:3000
+   ```
+
+## Environment
+
+Configuration lives in `.env`.
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+```
+
+## Day 5 Scope
+
+- Next.js frontend setup
+- Tailwind CSS setup
+- Dashboard UI
+- Company and financial-year header controls
+- KPI cards
+- Quick actions for vouchers, ledgers, and stock
+- Recent activity and stock watch tables
