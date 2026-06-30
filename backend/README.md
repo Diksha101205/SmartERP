@@ -43,6 +43,20 @@ Express.js backend API for SmartERP.
 - `GET /api/companies/:companyId/ledgers/:ledgerId` - Get ledger details
 - `PATCH /api/companies/:companyId/ledgers/:ledgerId` - Update ledger details
 - `DELETE /api/companies/:companyId/ledgers/:ledgerId` - Deactivate ledger
+- `GET /api/companies/:companyId/groups` - List ledger groups
+- `POST /api/companies/:companyId/groups` - Create ledger group
+- `POST /api/companies/:companyId/groups/seed-defaults` - Create default accounting groups
+- `GET /api/companies/:companyId/groups/:groupId` - Get group details
+- `PATCH /api/companies/:companyId/groups/:groupId` - Update group details
+- `DELETE /api/companies/:companyId/groups/:groupId` - Delete unused custom group
+- `GET /api/companies/:companyId/stock/units` - List stock units
+- `POST /api/companies/:companyId/stock/units` - Create stock unit
+- `GET /api/companies/:companyId/stock/items` - List stock items
+- `POST /api/companies/:companyId/stock/items` - Create stock item
+- `GET /api/companies/:companyId/stock/items/:itemId` - Get stock item details
+- `PATCH /api/companies/:companyId/stock/items/:itemId` - Update stock item
+- `DELETE /api/companies/:companyId/stock/items/:itemId` - Deactivate stock item
+- `GET /api/companies/:companyId/stock/summary` - Stock summary
 
 ## Day 2 Scope
 
@@ -55,3 +69,5 @@ Express.js backend API for SmartERP.
 - Authentication module
 - Company management module
 - Ledger management module
+- Group management module
+- Stock management module

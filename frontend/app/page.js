@@ -10,6 +10,7 @@ import {
   FileDown,
   FileText,
   Landmark,
+  Layers3,
   LayoutDashboard,
   Package,
   Plus,
@@ -79,6 +80,7 @@ const stockRows = [
 const navItems = [
   { label: 'Dashboard', icon: LayoutDashboard, active: true },
   { label: 'Ledgers', icon: ClipboardList },
+  { label: 'Groups', icon: Layers3 },
   { label: 'Inventory', icon: Package },
   { label: 'Vouchers', icon: ReceiptText },
   { label: 'Reports', icon: FileText },
@@ -146,7 +148,15 @@ export default function DashboardPage() {
               return (
                 <a
                   key={item.label}
-                  href={item.label === 'Ledgers' ? '/ledgers' : '#'}
+                  href={
+                    item.label === 'Ledgers'
+                      ? '/ledgers'
+                      : item.label === 'Groups'
+                        ? '/groups'
+                        : item.label === 'Inventory'
+                          ? '/stock'
+                          : '#'
+                  }
                   className={`flex h-11 items-center gap-3 rounded-md px-3 text-sm font-medium transition ${
                     item.active ? 'bg-white text-ink' : 'text-white/72 hover:bg-white/10 hover:text-white'
                   }`}

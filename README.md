@@ -29,3 +29,11 @@ SmartERP is a Tally-inspired web application for billing, inventory, and account
 ## Day 6
 
 - [Ledger Management](docs/day-6-ledger-management.md)
+
+## Day 7
+
+- [Group Management](docs/day-7-group-management.md)
+
+## Day 8
+
+- [Stock Management](docs/day-8-stock-management.md)

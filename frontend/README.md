@@ -46,3 +46,17 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 - Customer and supplier master UI
 - Ledger search table
 - Ledger creation form
+
+## Day 7 Scope
+
+- Group management page
+- Default accounting group UI
+- Parent group hierarchy table
+- Group creation form
+
+## Day 8 Scope
+
+- Stock management page
+- Unit and item master UI
+- HSN/SAC and GST fields
+- Opening stock and reorder level UI
